@@ -47,6 +47,8 @@ fetch(url).then((response)=>{
         b8.src='https://media3.giphy.com/media/9GIEZ60FUeeSAPyltp/giphy.gif';
     }else if(data['weather'][0]['main']=='Clear'){
         b8.src='https://i.gifer.com/XFbw.gif';
+    }else{
+        b8.src='https://c.tenor.com/lSxb9peyIzEAAAAC/green.gif';
     }
 
 
