@@ -58,9 +58,10 @@ fetch(url).then((response)=>{
     // b5.innerText='Sunrise:- '+data['sys']['sunrise'];
     // b6.innerText='Sunset:- '+data['sys']['sunset'];
     b7.innerText='Weather:- '+data['weather'][0]['main'];
+    b2.innerText='Weather Description:- '+data['weather'][0]['description']
     // b9.innerHTML=
     cloudImage.append(b8)
-    a.append(b,b1,b2,b3,b4,b5,b6,b7);
+    a.append(b,b1,b3,b4,b5,b6,b7,b2);
 
 }).catch((error)=>{
     var a=document.querySelector('#container1');
